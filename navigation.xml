@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Navigations xmlns="" >
+	<Category Title="Layout">
+        <Navigation Path="dockpanel.xaml"  Category="Components and Controls"	Title="地磅" Description="地磅配置.">
+        </Navigation>
+    <Navigation Path="settingsUI/BarrierGate.xaml" Title="道闸" Description="道闸配置.">
+      <Syntax>
+
+      </Syntax>
+    </Navigation>
+    <Navigation Path="dockpanel.xaml"	Title="LED室外屏" Description="LED室外屏配置.">
+      <Syntax>
+
+      </Syntax>
+    </Navigation>
+        <Navigation Path="viewbox.xaml"  	Title="红外对射" Description="红外对射配置." >
+            <Syntax>
+               
+            </Syntax>
+        </Navigation>
+    <Navigation Path="viewbox.xaml"  	Title="打印机" Description="打印机配置." >
+      <Syntax>
+
+      </Syntax>
+    </Navigation>
+    <Navigation Path="viewbox.xaml"  	Title="语音处理" Description="语音处理配置." >
+      <Syntax>
+
+      </Syntax>
+    </Navigation>
+    </Category>
+	<Category Title="Control">
+        <Navigation Path="button.xaml" 	Title="系统参数" Description="系统参数设置.">
+
+            <Syntax>
+               
+            </Syntax>
+        </Navigation>
+
+		<Navigation Path="checkbox.xaml"  	Title="系统升级" Description="系统升级.">
+
+            <Syntax>
+                
+            </Syntax>
+        </Navigation>
+		</Category>
+</Navigations>
+
